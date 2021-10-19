@@ -73,14 +73,6 @@ void TestUniqueMax() {
 
 	vector<int> numbers(10);
 	iota(numbers.begin(), numbers.end(), 1);
-
-	/*
-	  Мы не используем AssertEqual, потому что для итераторов
-	  отсутствует перегрузка оператора вывода в поток ostream.
-	  Разыменование здесь также недопустимо, так как оно может повлечь
-	  неопределенное поведение, если функция max_element_if, к примеру,
-	  вернула итератор, указывающий на конец контейнера.
-	*/
 	Assert(
 		max_element_if(numbers.begin(), numbers.end(), IsEven) == --numbers.end(),
 		"Expect the last element"
