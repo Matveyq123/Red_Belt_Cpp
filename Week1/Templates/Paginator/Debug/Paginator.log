@@ -1,0 +1,10 @@
+﻿  paginator.cpp
+c:\users\matvii.korobieinikov\source\repos\red_belt_cpp\week1\templates\paginator\paginator.cpp(123): error C2955: 'Paginator': use of class template requires template argument list
+  c:\users\matvii.korobieinikov\source\repos\red_belt_cpp\week1\templates\paginator\paginator.cpp(42): note: see declaration of 'Paginator'
+c:\users\matvii.korobieinikov\source\repos\red_belt_cpp\week1\templates\paginator\paginator.cpp(123): error C2514: 'Paginator': class has no constructors
+  c:\users\matvii.korobieinikov\source\repos\red_belt_cpp\week1\templates\paginator\paginator.cpp(42): note: see declaration of 'Paginator'
+c:\users\matvii.korobieinikov\source\repos\red_belt_cpp\week1\templates\paginator\paginator.cpp(125): error C2663: 'Paginator<Iterator>::begin': 2 overloads have no legal conversion for 'this' pointer
+c:\users\matvii.korobieinikov\source\repos\red_belt_cpp\week1\templates\paginator\paginator.cpp(125): error C2663: 'Paginator<Iterator>::end': 2 overloads have no legal conversion for 'this' pointer
+c:\users\matvii.korobieinikov\source\repos\red_belt_cpp\week1\templates\paginator\paginator.cpp(125): error C3536: '<begin>$L0': cannot be used before it is initialized
+c:\users\matvii.korobieinikov\source\repos\red_belt_cpp\week1\templates\paginator\paginator.cpp(125): error C3536: '<end>$L0': cannot be used before it is initialized
+c:\users\matvii.korobieinikov\source\repos\red_belt_cpp\week1\templates\paginator\paginator.cpp(125): error C2100: illegal indirection
